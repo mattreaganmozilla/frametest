@@ -16,9 +16,30 @@
       box-sizing: border-box;
       border: 10px solid green;
       min-height: 100vh;
+
+      /* Center the input field */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background: white;
+    }
+
+    input {
+      font-size: 20px;
+      padding: 12px 16px;
+      width: 80%;
+      max-width: 400px;
     }
   </style>
 </head>
 <body>
+
+  <input
+    type="text"
+    placeholder="Tap here to type..."
+    autofocus
+  />
+
 </body>
 </html>
